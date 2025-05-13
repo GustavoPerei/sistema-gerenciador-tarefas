@@ -1,19 +1,26 @@
-# Sistema de Gerenciamento de Tarefas Ágil
+# Sistema de Gerenciamento de Tarefas
 
 ## 🎯 Objetivo
-Desenvolver um sistema para gerenciar tarefas com foco em agilidade, priorização e produtividade.
+Criar um sistema simples de gerenciamento de tarefas com Python e Flask, aplicando práticas de Engenharia de Software e metodologias ágeis.
+
+## 🚀 Funcionalidades
+- Listar tarefas
+- Criar tarefa
+- Editar tarefa
+- Deletar tarefa
+- Testes automatizados com pytest
+- CI com GitHub Actions
 
 ## 🛠️ Tecnologias Usadas
-- Linguagem: Python
-- Framework: Flask
-- Testes: Pytest
-- CI/CD: GitHub Actions
-- Gerenciamento: Kanban (GitHub Projects)
+- Python + Flask
+- Pytest
+- Git + GitHub
+- GitHub Actions
+- Kanban (Projects)
 
-## 🧪 Metodologia
-SCRUM simplificado com uso de Kanban (To Do, In Progress, Done).
+## 📈 Mudança de Escopo
+Foi adicionada uma funcionalidade de **prioridade nas tarefas** para permitir melhor organização. Essa mudança foi registrada no Kanban e aplicada no código.
 
-## 🚀 Como Executar
-1. Clone o repositório
-2. Instale as dependências
-3. Execute `python app.py`
+## ▶️ Como executar o sistema
+```bash
+python -m app.main
