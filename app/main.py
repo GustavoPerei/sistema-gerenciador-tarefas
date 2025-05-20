@@ -30,6 +30,10 @@ def criar():
     nova = adicionar_tarefa(dados['titulo'], dados.get('prioridade', 'média'))
     return jsonify(nova), 201
 
+@app.route('/ping')
+def ping():
+    return "pong"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
