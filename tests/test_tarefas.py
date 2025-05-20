@@ -34,3 +34,7 @@ def adicionar_tarefa(titulo, prioridade="média"):
     tarefas.append(nova)
     contador + 1
     return nova
+
+def contar_tarefas():
+    return len(tarefas)
+
