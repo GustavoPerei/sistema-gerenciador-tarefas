@@ -27,3 +27,10 @@ def test_criar_listar_excluir(client):
     # Excluir
     resposta = client.delete(f"/tarefas/{tarefa['id']}")
     assert resposta.status_code == 204
+
+def adicionar_tarefa(titulo, prioridade="média"):
+    global contador
+    nova = {'id': contador, 'titulo': titulo, 'prioridade': prioridade}
+    tarefas.append(nova)
+    contador += 1
+    return nova

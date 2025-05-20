@@ -24,5 +24,12 @@ def excluir(id):
     deletar_tarefa(id)
     return '', 204
 
+@app.route('/tarefas', methods=['POST'])
+def criar():
+    dados = request.json
+    nova = adicionar_tarefa(dados['titulo'], dados.get('prioridade', 'média'))
+    return jsonify(nova), 201
+
+
 if __name__ == '__main__':
     app.run(debug=True)
