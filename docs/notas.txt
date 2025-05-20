@@ -1,0 +1,3 @@
+Anotações do projeto:
+- Criado para o portfólio de Engenharia de Software
+- Desenvolvido em Flask
