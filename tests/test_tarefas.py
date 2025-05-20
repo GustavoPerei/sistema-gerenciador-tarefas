@@ -38,7 +38,5 @@ def adicionar_tarefa(titulo, prioridade="média"):
 def contar_tarefas():
     return len(tarefas)
 
-# Esta função adiciona uma nova tarefa à lista
-def adicionar_tarefa(...):
-    ...
+
 
