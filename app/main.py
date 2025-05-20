@@ -38,3 +38,6 @@ def ping():
 if __name__ == '__main__':
     app.run(debug=True)
 
+@app.route('/sobre')
+def sobre():
+    return "Sistema desenvolvido para o Portfólio Átomo"
