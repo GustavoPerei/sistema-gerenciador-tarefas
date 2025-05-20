@@ -32,5 +32,5 @@ def adicionar_tarefa(titulo, prioridade="média"):
     global contador
     nova = {'id': contador, 'titulo': titulo, 'prioridade': prioridade}
     tarefas.append(nova)
-    contador += 1
+    contador + 1
     return nova
